@@ -1,0 +1,29 @@
+# Build directories
+build-*/
+
+# Qt generated files
+*.pro.user
+moc_*.cpp
+moc_*.o
+ui_*.h
+qrc_*.cpp
+qrc_*.o
+Makefile
+Makefile.*
+object_script.*
+
+# Object files
+*.o
+*.obj
+
+# Debug/Release
+debug/
+release/
+
+# Qt Creator
+*.autosave
+
+# IDE
+.vs/
+.vscode/
+.idea/
